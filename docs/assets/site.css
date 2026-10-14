@@ -60,7 +60,8 @@
 .md-typeset a:hover { color: var(--md-accent-fg-color); }
 
 /* Page width: use the desktop (Material default is 61rem) */
-.md-grid { max-width: 76rem; }
+/* Side margins scale with the screen; header, content and footer stay aligned */
+.md-grid { max-width: 76rem; padding-inline: clamp(0.4rem, 3vw, 2.4rem); }
 
 /* Home layout: fluid, 12-column on desktop, stacked on tablet/phone */
 .home { padding-top: 2.5rem; }
