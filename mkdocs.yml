@@ -7,23 +7,25 @@ copyright: © 2026 Pharns Genece
 theme:
   name: material
   custom_dir: overrides
+  font:
+    text: Source Serif 4
+    code: JetBrains Mono
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: black
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: black
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Light mode
   features:
-    - navigation.tabs
     - navigation.top
     - content.code.copy
 
@@ -38,12 +40,16 @@ plugins:
 markdown_extensions:
   - admonition
   - attr_list
+  - md_in_html
   - footnotes
   - tables
   - toc:
       permalink: true
   - pymdownx.superfences
   - pymdownx.highlight
+
+extra_css:
+  - assets/site.css
 
 nav:
   - Home: index.md

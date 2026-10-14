@@ -1,0 +1,155 @@
+/* Notes from the Field — quiet, typographic. One accent, two typefaces. */
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #FCFCFB;
+  --md-primary-fg-color--light: #FCFCFB;
+  --md-primary-fg-color--dark: #FCFCFB;
+  --md-primary-bg-color: #111111;
+  --md-primary-bg-color--light: #5A5A57;
+  --md-accent-fg-color: #B3401A;
+  --md-default-bg-color: #FCFCFB;
+  --md-default-fg-color: #111111;
+  --md-default-fg-color--light: #5A5A57;
+  --md-default-fg-color--lighter: #8A8A86;
+  --md-default-fg-color--lightest: #E6E6E2;
+  --md-typeset-color: #111111;
+  --md-typeset-a-color: #111111;
+  --nf-muted: #6B6B67;
+  --nf-rule: #E6E6E2;
+  --nf-stage-learning: #B3401A;
+  --nf-stage-developing: #8A6A12;
+  --nf-stage-learned: #2F5D46;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-hue: 150;
+  --md-primary-fg-color: #121413;
+  --md-primary-fg-color--light: #121413;
+  --md-primary-fg-color--dark: #121413;
+  --md-primary-bg-color: #E8E6E1;
+  --md-primary-bg-color--light: #A9A7A1;
+  --md-accent-fg-color: #E58A62;
+  --md-default-bg-color: #121413;
+  --md-default-fg-color: #E8E6E1;
+  --md-default-fg-color--light: #B5B3AD;
+  --md-default-fg-color--lighter: #8C8A85;
+  --md-default-fg-color--lightest: #2A2D2B;
+  --md-typeset-color: #E8E6E1;
+  --md-typeset-a-color: #E8E6E1;
+  --nf-muted: #A3A19B;
+  --nf-rule: #2A2D2B;
+  --nf-stage-learning: #E58A62;
+  --nf-stage-developing: #D9B45A;
+  --nf-stage-learned: #7FBF9A;
+}
+
+/* Header: page-coloured, hairline rule, no shadow */
+.md-header,
+.md-header--shadow {
+  box-shadow: none;
+  border-bottom: 1px solid var(--nf-rule);
+}
+.md-header__topic:first-child { font-weight: 600; }
+
+/* Links: underline in the accent colour */
+.md-typeset a {
+  text-decoration: underline;
+  text-decoration-color: var(--md-accent-fg-color);
+  text-underline-offset: 0.2em;
+}
+.md-typeset a:hover { color: var(--md-accent-fg-color); }
+
+/* Home: one narrow reading column */
+.home {
+  max-width: 34rem;
+  margin: 0 auto;
+  padding-top: 3.5rem;
+}
+.home h1 {
+  font-size: 1.9rem;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--md-default-fg-color);
+  margin: 0 0 1.2rem;
+}
+.home > p {
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+.home .orcid { font-size: 0.75rem; color: var(--nf-muted); }
+
+/* Section headings: full serif heading with a short accent rule above */
+.home h2 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.005em;
+  color: var(--md-default-fg-color);
+  margin: 3.2rem 0 1.1rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--nf-rule);
+  position: relative;
+}
+.home h2::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 2.5rem;
+  height: 3px;
+  background: var(--md-accent-fg-color);
+}
+.home h2 .headerlink { display: none; }
+
+/* Jump links under the intro */
+.home .jump {
+  font-family: var(--md-code-font-family);
+  font-size: 0.65rem;
+  color: var(--nf-muted);
+  margin-top: 1.6rem;
+}
+.home .jump a {
+  display: inline-block;
+  padding: 0.5rem 0;
+  text-decoration: none;
+  color: var(--md-default-fg-color);
+  border-bottom: 1px solid var(--md-accent-fg-color);
+  line-height: 1.2;
+}
+.home .jump a:hover { color: var(--md-accent-fg-color); }
+
+/* Publications: title line + mono meta line, no cards */
+.home .pub { margin: 0 0 1.1rem; line-height: 1.45; font-size: 0.9rem; }
+.home .pub a { text-decoration: none; }
+.home .pub a:hover { text-decoration: underline; text-decoration-color: var(--md-accent-fg-color); }
+.home .pub-meta {
+  display: block;
+  margin-top: 0.15rem;
+  font-family: var(--md-code-font-family);
+  font-size: 0.62rem;
+  color: var(--nf-muted);
+}
+.home .pub-note { font-size: 0.7rem; font-style: italic; color: var(--nf-muted); }
+
+/* Notebook: learning stages are blog categories, shown as small mono labels */
+.md-post__meta a[href*="category/learning"],
+.md-post__meta a[href*="category/developing"],
+.md-post__meta a[href*="category/learned"] {
+  font-family: var(--md-code-font-family);
+  font-size: 0.6rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  padding: 0.1rem 0.5rem;
+}
+.md-post__meta a[href*="category/learning"] { color: var(--nf-stage-learning); }
+.md-post__meta a[href*="category/developing"] { color: var(--nf-stage-developing); }
+.md-post__meta a[href*="category/learned"] { color: var(--nf-stage-learned); }
+
+/* Tabs (used once the Notebook is unhidden): page-coloured, small mono */
+.md-tabs { background: var(--md-default-bg-color); color: var(--md-default-fg-color--light); border-bottom: 1px solid var(--nf-rule); }
+.md-tabs__link { font-family: var(--md-code-font-family); font-size: 0.62rem; opacity: 1; }
+.md-tabs__item--active .md-tabs__link { color: var(--md-accent-fg-color); }
