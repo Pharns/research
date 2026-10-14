@@ -1,0 +1,62 @@
+site_name: Pharns Genece — Notes from the Field
+site_url: https://research.pharns.com/
+site_author: Pharns Genece
+site_description: What I have learned and am still learning in cybersecurity — research, notes, and lessons shared to help others in the field.
+copyright: © 2026 Pharns Genece
+
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+
+plugins:
+  - search
+  - blog:
+      blog_dir: notebook
+      blog_toc: true
+      post_date_format: long
+      archive: false
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.highlight
+
+nav:
+  - Home: index.md
+  # Notebook hidden until 2+ posts clear the disclosure check (Pharns, 2026-10-14).
+  # To unhide, add:
+  # - Notebook:
+  #     - notebook/index.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/orcid
+      link: https://orcid.org/0009-0009-0791-4124
+    - icon: fontawesome/brands/github
+      link: https://github.com/Pharns
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/pharns

@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block extrahead %}
+  {{ super() }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Pharns Genece",
+    "url": "https://research.pharns.com/",
+    "affiliation": { "@type": "Organization", "name": "AAM Cyber", "url": "https://aamcyber.com/" },
+    "sameAs": [
+      "https://orcid.org/0009-0009-0791-4124",
+      "https://github.com/Pharns",
+      "https://www.linkedin.com/in/pharns",
+      "https://portfolio.pharns.com/"
+    ]
+  }
+  </script>
+{% endblock %}
