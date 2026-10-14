@@ -6,7 +6,9 @@ hide:
 
 # Pharns Genece
 
-Research on governing autonomous systems — digital and physical — and working notes from across cybersecurity.
+What I've learned, what I'm learning, and hopefully some things you can learn from me.
+
+This is my personal notebook: what I'm learning, what I want to teach, and what I'm thinking through. My consulting and standards work lives at [AAM Cyber](https://aamcyber.com/). My projects live at [portfolio.pharns.com](https://portfolio.pharns.com/).
 
 My perspective comes from working across the autonomy continuum: automation → autonomy → AI, from sUAS and physical autonomous systems to cybersecurity and digital AI agents.
 
