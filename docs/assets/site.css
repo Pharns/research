@@ -59,25 +59,62 @@
 }
 .md-typeset a:hover { color: var(--md-accent-fg-color); }
 
-/* Home: one narrow reading column */
-.home {
-  max-width: 34rem;
-  margin: 0 auto;
-  padding-top: 3.5rem;
-}
+/* Page width: use the desktop (Material default is 61rem) */
+.md-grid { max-width: 76rem; }
+
+/* Home layout: fluid, 12-column on desktop, stacked on tablet/phone */
+.home { padding-top: 2.5rem; }
 .home h1 {
-  font-size: 1.9rem;
+  font-size: clamp(1.6rem, 1.1rem + 2.2vw, 2.6rem);
   font-weight: 400;
-  line-height: 1.25;
-  letter-spacing: -0.01em;
+  line-height: 1.15;
+  letter-spacing: -0.015em;
   color: var(--md-default-fg-color);
-  margin: 0 0 1.2rem;
+  margin: 0 0 1.4rem;
 }
-.home > p {
-  font-size: 0.9rem;
-  line-height: 1.7;
+.home p { font-size: 0.9rem; line-height: 1.7; }
+
+.hero, .sections {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: 2.4rem;
+  row-gap: 1.6rem;
 }
-.home .orcid { font-size: 0.75rem; color: var(--nf-muted); }
+.hero-main { grid-column: 1 / span 8; }
+.hero-aside { grid-column: 9 / span 4; align-self: end; }
+.col-main { grid-column: 1 / span 8; }
+.col-side { grid-column: 9 / span 4; }
+
+/* Side panel: hairline box, mono labels */
+.hero-aside {
+  border: 1px solid var(--nf-rule);
+  border-radius: 0.5rem;
+  padding: 1.1rem 1.2rem 0.4rem;
+}
+.hero-aside p { font-size: 0.75rem; line-height: 1.6; margin: 0 0 0.9rem; }
+.hero-aside .aside-label {
+  font-family: var(--md-code-font-family);
+  font-size: 0.58rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--md-accent-fg-color);
+  margin: 0 0 0.3rem;
+}
+.hero-aside a { text-decoration: none; border-bottom: 1px solid var(--md-accent-fg-color); }
+.hero-aside a:hover { color: var(--md-accent-fg-color); }
+
+/* Tablet: one column, aside becomes a full-width band */
+@media screen and (max-width: 76.1875em) {
+  .hero-main, .hero-aside, .col-main, .col-side { grid-column: 1 / -1; }
+  .hero-aside { align-self: start; }
+}
+/* Phone: tighter spacing */
+@media screen and (max-width: 44.9375em) {
+  .home { padding-top: 1.2rem; }
+  .hero, .sections { column-gap: 0; row-gap: 1rem; }
+  .home .hero-main p, .home .col-main p, .home .col-side p { font-size: 0.85rem; }
+  .home h1 { margin-bottom: 1rem; }
+}
 
 /* Section headings: full serif heading with a short accent rule above */
 .home h2 {
@@ -86,7 +123,7 @@
   line-height: 1.2;
   letter-spacing: -0.005em;
   color: var(--md-default-fg-color);
-  margin: 3.2rem 0 1.1rem;
+  margin: 3rem 0 1.1rem;
   padding-top: 1.4rem;
   border-top: 1px solid var(--nf-rule);
   position: relative;
@@ -102,22 +139,7 @@
 }
 .home h2 .headerlink { display: none; }
 
-/* Jump links under the intro */
-.home .jump {
-  font-family: var(--md-code-font-family);
-  font-size: 0.65rem;
-  color: var(--nf-muted);
-  margin-top: 1.6rem;
-}
-.home .jump a {
-  display: inline-block;
-  padding: 0.5rem 0;
-  text-decoration: none;
-  color: var(--md-default-fg-color);
-  border-bottom: 1px solid var(--md-accent-fg-color);
-  line-height: 1.2;
-}
-.home .jump a:hover { color: var(--md-accent-fg-color); }
+
 
 /* Publications: title line + mono meta line, no cards */
 .home .pub { margin: 0 0 1.1rem; line-height: 1.45; font-size: 0.9rem; }

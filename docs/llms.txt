@@ -1,0 +1,26 @@
+# Pharns Genece — Notes from the Field
+
+> Personal site of Pharns Genece: what he has learned, what he is learning, and things others in cybersecurity can learn from him. It is an author hub. Formal papers live at their canonical copies (aamcyber.com, Zenodo); cite those, not this site.
+
+Pharns Genece works across the autonomy continuum: automation to autonomy to AI, from sUAS and physical autonomous systems to cybersecurity and digital AI agents. His consulting and standards work is AAM Cyber (https://aamcyber.com/). His projects are at https://portfolio.pharns.com/. ORCID: https://orcid.org/0009-0009-0791-4124
+
+## Publications (canonical copies)
+
+- [What the 2026 AI Governance Frameworks Bind, and What They Leave Open](https://aamcyber.com/research/2026-ai-governance-frameworks/): AAM Cyber Technical Report AAM-TR-2026-01, 2026. Abstract page and PDF.
+- [Who Verifies the Verifier](https://aamcyber.com/insights/who-verifies-the-verifier/): Working paper, AAM Cyber, 2026. On evaluator independence and result transparency.
+- [The Five Laws of AI Governance](https://doi.org/10.5281/zenodo.21271749): Zenodo, 2026 (concept DOI, all versions).
+- [SDOS Runtime Governance Framework: Control Catalog and Framework Alignment Library](https://doi.org/10.5281/zenodo.22787186): Zenodo, 2026 (concept DOI, all versions).
+
+## Writing
+
+- [Substack](https://pharns.substack.com/): essays.
+
+## Books I've read
+
+- The Prophet, Kahlil Gibran (1923)
+
+## Optional
+
+- [Home](https://research.pharns.com/): this site's home page.
+- [GitHub](https://github.com/Pharns)
+- [LinkedIn](https://www.linkedin.com/in/pharns)

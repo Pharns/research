@@ -60,6 +60,9 @@ nav:
 
 extra:
   social:
+    - icon: simple/substack
+      link: https://pharns.substack.com/
+      name: Substack
     - icon: fontawesome/brands/orcid
       link: https://orcid.org/0009-0009-0791-4124
     - icon: fontawesome/brands/github

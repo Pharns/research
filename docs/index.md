@@ -6,17 +6,43 @@ hide:
 
 <div class="home" markdown>
 
+<div class="hero" markdown>
+
+<div class="hero-main" markdown>
+
 # What I've learned, what I'm learning, and hopefully some things you can learn from me.
 
 This is my personal notebook: what I'm learning, what I want to teach, and what I'm thinking through. My consulting and standards work lives at [AAM Cyber](https://aamcyber.com/). My projects live at [portfolio.pharns.com](https://portfolio.pharns.com/).
 
+</div>
+
+<aside class="hero-aside" markdown>
+
+<p class="aside-label">Lineage</p>
+
 My perspective comes from working across the autonomy continuum: automation → autonomy → AI, from sUAS and physical autonomous systems to cybersecurity and digital AI agents.
 
-[ORCID 0009-0009-0791-4124](https://orcid.org/0009-0009-0791-4124){rel="me"} · Pharns Genece · [AAM Cyber](https://aamcyber.com/)
-{: .orcid }
+<p class="aside-label">On this page</p>
 
-[Publications](#publications) &nbsp;·&nbsp; [Books I've read](#books-ive-read)
+[Publications](#publications)<br>
+[Books I've read](#books-ive-read)
 {: .jump }
+
+<p class="aside-label">Elsewhere</p>
+
+[Substack: essays](https://pharns.substack.com/){rel="me"}<br>
+[ORCID 0009-0009-0791-4124](https://orcid.org/0009-0009-0791-4124){rel="me"}<br>
+[AAM Cyber](https://aamcyber.com/) · [Portfolio](https://portfolio.pharns.com/)<br>
+[GitHub](https://github.com/Pharns) · [LinkedIn](https://www.linkedin.com/in/pharns)
+{: .elsewhere }
+
+</aside>
+
+</div>
+
+<div class="sections" markdown>
+
+<section class="col-main" markdown>
 
 ## Publications
 
@@ -39,10 +65,18 @@ My perspective comes from working across the autonomy continuum: automation → 
 Each links to its canonical copy. Cite that copy, not this page.
 {: .pub-note }
 
+</section>
+
+<section class="col-side" markdown>
+
 ## Books I've read
 
 *The Prophet*
 <span class="pub-meta">Kahlil Gibran · 1923</span>
 {: .pub }
+
+</section>
+
+</div>
 
 </div>
