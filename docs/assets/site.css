@@ -138,6 +138,7 @@
   height: 3px;
   background: var(--md-accent-fg-color);
 }
+.home h1 .headerlink,
 .home h2 .headerlink { display: none; }
 
 
