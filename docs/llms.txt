@@ -6,7 +6,7 @@ Pharns Genece works across the autonomy continuum: automation to autonomy to AI,
 
 ## Publications (canonical copies)
 
-- [What the 2026 AI Governance Frameworks Bind, and What They Leave Open](https://aamcyber.com/research/2026-ai-governance-frameworks/): AAM Cyber Technical Report AAM-TR-2026-01, 2026. Abstract page and PDF.
+- [What the 2026 AI Governance Frameworks Bind, and What They Leave Open](https://aamcyber.com/research/2026-ai-governance-frameworks/): AAM Cyber Technical Report AAM-TR-2026-01, 2026. Abstract page and PDF. Surveys the AI governance assessment and enforcement literatures and where each stops.
 - [Who Verifies the Verifier](https://aamcyber.com/insights/who-verifies-the-verifier/): Working paper, AAM Cyber, 2026. On evaluator independence and result transparency.
 - [The Five Laws of AI Governance](https://doi.org/10.5281/zenodo.21271749): Zenodo, 2026 (concept DOI, all versions).
 - [SDOS Runtime Governance Framework: Control Catalog and Framework Alignment Library](https://doi.org/10.5281/zenodo.22787186): Zenodo, 2026 (concept DOI, all versions).

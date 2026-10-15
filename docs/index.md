@@ -48,6 +48,7 @@ My perspective comes from working across the autonomy continuum: automation → 
 
 [What the 2026 AI Governance Frameworks Bind, and What They Leave Open](https://aamcyber.com/research/2026-ai-governance-frameworks/)
 <span class="pub-meta">Technical report AAM-TR-2026-01 · AAM Cyber · 2026</span>
+<span class="pub-summary">Two bodies of AI governance work get read as one conversation. They aren't. Assessment work defines when an evaluation counts as independent. Enforcement work binds an action before it happens. I mapped what each actually specifies, and where both stop: outside one financial-services proposal, neither produces a result you can compare across organizations.</span>
 {: .pub }
 
 [Who Verifies the Verifier](https://aamcyber.com/insights/who-verifies-the-verifier/)
@@ -55,11 +56,13 @@ My perspective comes from working across the autonomy continuum: automation → 
 {: .pub }
 
 [The Five Laws of AI Governance](https://doi.org/10.5281/zenodo.21271749)
-<span class="pub-meta">Zenodo · doi:10.5281/zenodo.21271749 · 2026</span>
+<span class="pub-meta">Zenodo · concept DOI, all versions · doi:10.5281/zenodo.21271749 · 2026</span>
+<span class="pub-summary">The minimum conditions for governing an autonomous system independently. The system can't be its own judge, witness, owner, or executioner. And governance binds before the act, not after.</span>
 {: .pub }
 
 [SDOS Runtime Governance Framework: Control Catalog and Framework Alignment Library](https://doi.org/10.5281/zenodo.22787186)
-<span class="pub-meta">Zenodo · doi:10.5281/zenodo.22787186 · 2026</span>
+<span class="pub-meta">Zenodo · concept DOI, all versions · doi:10.5281/zenodo.22787186 · 2026</span>
+<span class="pub-summary">24 controls for runtime governance of autonomous and agentic systems, across 9 domains, mapped to 17 established frameworks. Three of those mappings are Final in NIST's OLIR catalog. That's published mapping data, not a NIST endorsement. The library says what each control is for, not how it's built.</span>
 {: .pub }
 
 Each links to its canonical copy. Cite that copy, not this page.

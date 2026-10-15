@@ -154,6 +154,14 @@
   font-size: 0.62rem;
   color: var(--nf-muted);
 }
+.home .pub-summary {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 0.78rem;
+  line-height: 1.6;
+  color: var(--md-default-fg-color--light);
+  max-width: 40rem;
+}
 .home .pub-note { font-size: 0.7rem; font-style: italic; color: var(--nf-muted); }
 
 /* Notebook: learning stages are blog categories, shown as small mono labels */

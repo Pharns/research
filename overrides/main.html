@@ -1,6 +1,16 @@
 {% extends "base.html" %}
 {% block extrahead %}
   {{ super() }}
+  {% set og_title = config.site_name if page.is_homepage else (page.title | striptags) ~ " — " ~ config.site_name %}
+  {% set og_desc = (page.meta and page.meta.description) or config.site_description %}
+  <meta property="og:type" content="{{ 'article' if page.meta and page.meta.date else 'website' }}">
+  <meta property="og:site_name" content="{{ config.site_name }}">
+  <meta property="og:title" content="{{ og_title }}">
+  <meta property="og:description" content="{{ og_desc }}">
+  <meta property="og:url" content="{{ page.canonical_url }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ og_title }}">
+  <meta name="twitter:description" content="{{ og_desc }}">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
