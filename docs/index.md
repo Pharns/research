@@ -78,6 +78,10 @@ Each links to its canonical copy. Cite that copy, not this page.
 <span class="pub-meta">Kahlil Gibran · 1923 · Google Books</span>
 {: .pub }
 
+[*Think and Grow Rich*](https://books.google.com/books?id=suoCrgEACAAJ)
+<span class="pub-meta">Napoleon Hill · 1937 · Google Books</span>
+{: .pub }
+
 </section>
 
 </div>
