@@ -2,7 +2,7 @@
 
 > Personal site of Pharns Genece: what he has learned, what he is learning, and things others in cybersecurity can learn from him. It is an author hub. Formal papers live at their canonical copies (aamcyber.com, Zenodo); cite those, not this site.
 
-Pharns Genece works across the autonomy continuum: automation to autonomy to AI, from sUAS and physical autonomous systems to cybersecurity and digital AI agents. His consulting and standards work is AAM Cyber (https://aamcyber.com/). His projects are at https://portfolio.pharns.com/. ORCID: https://orcid.org/0009-0009-0791-4124
+Pharns Genece works across the autonomy continuum: automation to autonomy to AI, from remotely operated underwater vehicles and small unmanned aircraft, through RF and spectrum sensing, to cybersecurity and digital AI agents. His consulting and standards work is AAM Cyber (https://aamcyber.com/). His projects are at https://portfolio.pharns.com/. ORCID: https://orcid.org/0009-0009-0791-4124
 
 ## Publications (canonical copies)
 

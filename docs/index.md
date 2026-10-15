@@ -20,7 +20,7 @@ This is my personal notebook: what I'm learning, what I want to teach, and what 
 
 <p class="aside-label">Lineage</p>
 
-My perspective comes from working across the autonomy continuum: automation → autonomy → AI, from sUAS and physical autonomous systems to cybersecurity and digital AI agents.
+My perspective comes from working across the autonomy continuum: automation → autonomy → AI, from remotely operated underwater vehicles and small unmanned aircraft, through RF and spectrum sensing, to cybersecurity and digital AI agents. I governed machines that could cause great harm before I governed software, and the control problem turned out to be the same one.
 
 <p class="aside-label">On this page</p>
 
