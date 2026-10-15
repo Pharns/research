@@ -6,7 +6,8 @@
   --md-primary-fg-color--dark: #FCFCFB;
   --md-primary-bg-color: #111111;
   --md-primary-bg-color--light: #5A5A57;
-  --md-accent-fg-color: #B3401A;
+  --md-accent-fg-color: #0B2A4A;
+  --nf-gold: #C09034;
   --md-default-bg-color: #FCFCFB;
   --md-default-fg-color: #111111;
   --md-default-fg-color--light: #5A5A57;
@@ -28,7 +29,8 @@
   --md-primary-fg-color--dark: #121413;
   --md-primary-bg-color: #E8E6E1;
   --md-primary-bg-color--light: #A9A7A1;
-  --md-accent-fg-color: #E58A62;
+  --md-accent-fg-color: #D9AE52;
+  --nf-gold: #D9AE52;
   --md-default-bg-color: #121413;
   --md-default-fg-color: #E8E6E1;
   --md-default-fg-color--light: #B5B3AD;
@@ -43,6 +45,10 @@
   --nf-stage-learned: #7FBF9A;
 }
 
+/* Logo: light-ink variant in dark mode */
+[data-md-color-scheme="slate"] .md-header__button.md-logo img { content: url("logo-dark.png"); }
+.md-header__button.md-logo img { height: 1.6rem; }
+
 /* Header: page-coloured, hairline rule, no shadow */
 .md-header,
 .md-header--shadow {
@@ -54,7 +60,7 @@
 /* Links: underline in the accent colour */
 .md-typeset a {
   text-decoration: underline;
-  text-decoration-color: var(--md-accent-fg-color);
+  text-decoration-color: var(--nf-gold);
   text-underline-offset: 0.2em;
 }
 .md-typeset a:hover { color: var(--md-accent-fg-color); }
@@ -101,7 +107,7 @@
   color: var(--md-accent-fg-color);
   margin: 0 0 0.3rem;
 }
-.hero-aside a { text-decoration: none; border-bottom: 1px solid var(--md-accent-fg-color); }
+.hero-aside a { text-decoration: none; border-bottom: 1px solid var(--nf-gold); }
 .hero-aside a:hover { color: var(--md-accent-fg-color); }
 
 /* Tablet: one column, aside becomes a full-width band */
@@ -136,7 +142,7 @@
   left: 0;
   width: 2.5rem;
   height: 3px;
-  background: var(--md-accent-fg-color);
+  background: var(--nf-gold);
 }
 .home h1 .headerlink,
 .home h2 .headerlink { display: none; }
@@ -146,7 +152,7 @@
 /* Publications: title line + mono meta line, no cards */
 .home .pub { margin: 0 0 1.1rem; line-height: 1.45; font-size: 0.9rem; }
 .home .pub a { text-decoration: none; }
-.home .pub a:hover { text-decoration: underline; text-decoration-color: var(--md-accent-fg-color); }
+.home .pub a:hover { text-decoration: underline; text-decoration-color: var(--nf-gold); }
 .home .pub-meta {
   display: block;
   margin-top: 0.15rem;
