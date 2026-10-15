@@ -11,15 +11,15 @@ theme:
     text: Source Serif 4
     code: JetBrains Mono
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
+    # Light is the default for every visitor (no OS-preference media query);
+    # the toggle switches to dark and the choice is remembered.
+    - scheme: default
       primary: custom
       accent: custom
       toggle:
         icon: material/brightness-4
         name: Dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+    - scheme: slate
       primary: custom
       accent: custom
       toggle:
