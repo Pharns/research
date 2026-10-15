@@ -21,16 +21,84 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Pharns Genece",
-    "url": "https://research.pharns.com/",
-    "affiliation": { "@type": "Organization", "name": "AAM Cyber", "url": "https://aamcyber.com/" },
-    "sameAs": [
-      "https://orcid.org/0009-0009-0791-4124",
-      "https://pharns.substack.com/",
-      "https://github.com/Pharns",
-      "https://www.linkedin.com/in/pharns",
-      "https://portfolio.pharns.com/"
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://research.pharns.com/#person",
+        "name": "Pharns Genece",
+        "url": "https://research.pharns.com/",
+        "jobTitle": "Founder, AAM Cyber",
+        "description": "Founder of AAM Cyber. Works across the autonomy continuum, automation to autonomy to AI: from remotely operated underwater vehicles and small unmanned aircraft, through RF and spectrum sensing, to cybersecurity and AI agents.",
+        "identifier": { "@type": "PropertyValue", "propertyID": "ORCID", "value": "0009-0009-0791-4124" },
+        "affiliation": { "@type": "Organization", "name": "AAM Cyber", "url": "https://aamcyber.com/" },
+        "worksFor": { "@type": "Organization", "name": "AAM Cyber", "url": "https://aamcyber.com/" },
+        "alumniOf": { "@type": "CollegeOrUniversity", "name": "Western Governors University" },
+        "knowsAbout": [
+          "AI governance",
+          "Autonomous systems governance",
+          "AI agent governance",
+          "Runtime governance",
+          "Cybersecurity",
+          "RF and spectrum sensing",
+          "Small unmanned aircraft systems",
+          "NIST AI RMF",
+          "ISO/IEC 42001",
+          "EU AI Act"
+        ],
+        "sameAs": [
+          "https://orcid.org/0009-0009-0791-4124",
+          "https://pharns.substack.com/",
+          "https://github.com/Pharns",
+          "https://www.linkedin.com/in/pharns",
+          "https://portfolio.pharns.com/",
+          "https://aamcyber.com/founder/"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://research.pharns.com/#website",
+        "url": "https://research.pharns.com/",
+        "name": "{{ config.site_name }}",
+        "author": { "@id": "https://research.pharns.com/#person" },
+        "inLanguage": "en"
+      }{% if page.is_homepage %},
+      {
+        "@type": "Report",
+        "name": "What the 2026 AI Governance Frameworks Bind, and What They Leave Open",
+        "reportNumber": "AAM-TR-2026-01",
+        "url": "https://aamcyber.com/research/2026-ai-governance-frameworks/",
+        "encoding": { "@type": "MediaObject", "contentUrl": "https://aamcyber.com/research/2026-ai-governance-frameworks/2026-ai-governance-frameworks.pdf", "encodingFormat": "application/pdf" },
+        "datePublished": "2026-10-06",
+        "author": { "@id": "https://research.pharns.com/#person" },
+        "publisher": { "@type": "Organization", "name": "AAM Cyber", "url": "https://aamcyber.com/" }
+      },
+      {
+        "@type": "ScholarlyArticle",
+        "name": "Who Verifies the Verifier",
+        "genre": "Working paper",
+        "url": "https://aamcyber.com/insights/who-verifies-the-verifier/",
+        "datePublished": "2026-10-03",
+        "author": { "@id": "https://research.pharns.com/#person" },
+        "publisher": { "@type": "Organization", "name": "AAM Cyber", "url": "https://aamcyber.com/" }
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "The Five Laws of AI Governance",
+        "url": "https://doi.org/10.5281/zenodo.21271749",
+        "identifier": { "@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.21271749" },
+        "copyrightYear": 2026,
+        "author": { "@id": "https://research.pharns.com/#person" },
+        "publisher": { "@type": "Organization", "name": "Zenodo", "url": "https://zenodo.org/" }
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "SDOS Runtime Governance Framework: Control Catalog and Framework Alignment Library",
+        "url": "https://doi.org/10.5281/zenodo.22787186",
+        "identifier": { "@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.22787186" },
+        "copyrightYear": 2026,
+        "author": { "@id": "https://research.pharns.com/#person" },
+        "publisher": { "@type": "Organization", "name": "Zenodo", "url": "https://zenodo.org/" }
+      }{% endif %}
     ]
   }
   </script>

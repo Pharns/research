@@ -34,10 +34,18 @@ theme:
 plugins:
   - search
   - blog:
+      # Off while the Notebook is hidden (see exclude_docs below), so the
+      # empty index is not published or listed in the sitemap.
+      enabled: false
       blog_dir: notebook
       blog_toc: true
       post_date_format: long
       archive: false
+
+# Notebook hidden until 2+ posts clear the disclosure check. To unhide:
+# remove this block, set blog enabled: true, and add the nav entry below.
+exclude_docs: |
+  notebook/
 
 markdown_extensions:
   - admonition
