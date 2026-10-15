@@ -28,6 +28,9 @@ Shorter notes on what I am researching and learning, across cyber. Not peer revi
 [Read the notebook →](notebook/index.md)
 ```
 
+## Add a book
+Under "Books I've read" in `docs/index.md`: title linked to its Google Books page (`https://books.google.com/books?id=<volume id>`; prefer a full-view edition when one exists), then a meta line `Author · year · Google Books`. Add the same line to `docs/llms.txt`.
+
 ## Add a notebook post
 Create `docs/notebook/posts/YYYY-MM-DD-slug.md`:
 

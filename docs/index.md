@@ -74,8 +74,8 @@ Each links to its canonical copy. Cite that copy, not this page.
 
 ## Books I've read
 
-*The Prophet*
-<span class="pub-meta">Kahlil Gibran · 1923</span>
+[*The Prophet*](https://books.google.com/books?id=KvSCPx9iwjIC)
+<span class="pub-meta">Kahlil Gibran · 1923 · Google Books</span>
 {: .pub }
 
 </section>
