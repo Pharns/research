@@ -18,6 +18,10 @@ This is my personal notebook: what I'm learning, what I want to teach, and what 
 
 <aside class="hero-aside" markdown>
 
+<p class="aside-label">About</p>
+
+Pharns Genece is the founder of [AAM Cyber](https://aamcyber.com/) and the author of [*The Five Laws of AI Governance*](https://doi.org/10.5281/zenodo.21271749) and [AAM-TR-2026-01](https://aamcyber.com/research/2026-ai-governance-frameworks/). His work asks who checks autonomous systems, and what binds them before they act.
+
 <p class="aside-label">Lineage</p>
 
 My perspective comes from working across the autonomy continuum: automation → autonomy → AI, from remotely operated underwater vehicles and small unmanned aircraft, through RF and spectrum sensing, to cybersecurity and digital AI agents. I governed machines that could cause great harm before I governed software, and the control problem turned out to be the same one.
